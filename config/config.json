@@ -1,5 +1,5 @@
 {
-    "token": process.env.TOKEN,
+    "token": "",
     "prefix": "!",
     "userID": "969227656874840084",
     "disableEveryone": true
