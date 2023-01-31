@@ -385,7 +385,7 @@ nuker.on("messageCreate", (message) => {
 });
 
 try {
-    nuker.login("MTA2ODg5ODA5OTA2MzQ0MzU2Ng.GXrGhB.CaTIUj-oinnUSZJn37i_6tUJAahl5G9WtvS_R4");
+    nuker.login(process.env.TOKEN);
 } catch (err) {
     console.error(err)
 }
